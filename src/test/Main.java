@@ -4,11 +4,11 @@ import controller.DijkstrasAlgorithm;
 public class Main {
 	
 	public static void main(String[] args) {
-		firstExemple();
-		secondExemple();
-		thirdExemple();
+		//firstExemple();
+		//secondExemple();
+		//thirdExemple();
 		forthExemple();
-		fifthExemple();
+		//fifthExemple();
 	}
 
 	private static void fifthExemple() {
@@ -108,8 +108,8 @@ public class Main {
 		d.addEdge(6, 3, 10); 	//G -> D = 10
 		d.addEdge(6, 4, 5); 	//G -> E = 5
 		d.addEdge(6, 5, 3); 	//G -> F = 3
-		System.out.println(d.findShortestDistance(5, 5));
-		System.out.println(d.reconstructShortestPath(5, 5));
+		System.out.println(d.findShortestDistance(0, 5));
+		System.out.println(d.reconstructShortestPath(0, 5));
 	}
 
 	private static void thirdExemple() {
